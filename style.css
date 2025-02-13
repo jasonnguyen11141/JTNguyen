@@ -2,7 +2,6 @@ body{
     font-family: georgia;
     background: #FFFFFF;
     flex-direction: column;
-    margin: ;
 }
 header{
     display: flex;
@@ -28,7 +27,7 @@ ul{
     
 }
 li{
-    padding-left: 21px;
+    padding-left: 50px;
     font-size: 29px;
 }
 li a{
@@ -36,7 +35,7 @@ li a{
     color: black;
 }
 li a:hover{
-    font-style: bold;
+    font-;
 }
 .name{
     text-align: center;
@@ -81,4 +80,20 @@ li a:hover{
     margin: 0 530px 0 0;
     text-align: center;
     line-height: 0;
+}
+.about{
+    display: flex;
+    margin-top: 174px;
+}
+.about p{
+    margin: 60px 159px 0 300px;
+    text-align: center;
+    font-size: 29px;
+}
+
+.about img{
+    margin-left: 153px;
+}
+.ab{
+    font-weight: bolder;
 }
