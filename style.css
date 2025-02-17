@@ -35,11 +35,11 @@ li a{
     color: black;
 }
 li a:hover{
-    font-;
+    font-style: oblique;
 }
 .name{
     text-align: center;
-    margin: 178px 0 0 auto;
+    margin: 150px 0 0 auto;
 }
 .name h2{
     margin: 0;
@@ -56,7 +56,7 @@ li a:hover{
     width: 1206px;
     height: 700px;
     text-align: center;
-    margin: 40px auto 0 auto;
+    margin: 30px auto 0 auto;
    
 }
 .zmee p{
@@ -80,13 +80,15 @@ li a:hover{
     margin: 0 530px 0 0;
     text-align: center;
     line-height: 0;
+    
 }
 .about{
-    display: flex;
-    margin-top: 174px;
-}
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 30px;
+}   
 .about p{
-    margin: 60px 159px 0 300px;
+    margin: 50px 150px 50px auto;
     text-align: center;
     font-size: 29px;
 }
@@ -97,3 +99,30 @@ li a:hover{
 .ab{
     font-weight: bolder;
 }
+
+.note{
+    text-align: center;
+    align-items: center;
+    margin:0;
+    margin-bottom: 60px;
+    line-height: 0;
+}
+.prototype {
+    align-items: center;
+    text-align: left;
+    margin: 0 153px 0 153px ;
+    font-size: 20px;
+}
+.spitch{
+    align-items: center;
+    text-align: left;
+    margin: 0 153px 0 153px ;
+    font-size: 25px;
+}
+.lpitch{
+    align-items: center;
+    text-align: left;
+    margin: 0 153px 0 153px ;
+    font-size: 20px;
+}
+
