@@ -39,7 +39,7 @@ li a:hover{
 }
 .name{
     text-align: center;
-    margin: 150px 0 0 auto;
+    margin: 100px 0 0 auto;
 }
 .name h2{
     margin: 0;
@@ -124,5 +124,8 @@ li a:hover{
     text-align: left;
     margin: 0 153px 0 153px ;
     font-size: 20px;
+}
+.WIP{
+    margin-left: 153px;
 }
 
