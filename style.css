@@ -77,8 +77,8 @@ li a:hover{
 }
 .zmeeDesc{
     font-size: 29px;
-    margin: 0 530px 0 0;
-    text-align: center;
+    margin-left: 153px;
+    text-align: left;
     line-height: 0;
     
 }
@@ -128,4 +128,8 @@ li a:hover{
 .WIP{
     margin-left: 153px;
 }
-
+footer{
+    text-align: center;
+    margin: 75px;
+    font-size: 20px;
+}
