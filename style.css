@@ -60,8 +60,7 @@ li a:hover{
     width: 1206px;
     height: 700px;
     text-align: center;
-    margin: 30px auto 0 auto;
-   
+    margin: 40px auto 0 auto;
 }
 .zmee p{
     font-size: 29px;
@@ -69,12 +68,17 @@ li a:hover{
 }   
 .top{
     font-size: 29px;
-    margin-top: 45px;
+    margin-top: 50px;
+}
+.title{
+    font-size: 29px;
+    padding-top: 45px;
 }
 .zmee a{
     text-decoration: none;
     color: black;
     margin: 45px;
+    
 }
 .zmee img, .MI449 img{
     margin-top: 80px;
