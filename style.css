@@ -1,0 +1,164 @@
+:root{
+    --img-background-color: #d3d3d3
+    
+}
+body{
+    font-family: georgia;
+    background: #FFFFFF;
+    flex-direction: column;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+h1{
+    text-decoration: none;
+    font-size: 29px;
+    line-height: normal;
+    margin: 90px auto 70px 153px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1 a{
+    text-decoration: none;
+    color: black;
+    font-weight: normal;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    margin: 90px 153px 70px auto; 
+    
+}
+li{
+    padding-left: 50px;
+    font-size: 29px;
+}
+li a{
+    text-decoration: none;
+    color: black;
+}
+li a:hover{
+    font-style: oblique;
+}
+.name{
+    text-align: center;
+    margin: 100px 0 0 auto;
+}
+.name h2{
+    margin: 0;
+    font-size: 32px;
+    
+}
+.name p{
+    margin: 0;
+    font-size: 16px;
+    
+}
+.zmee, .MI449{
+    background: var(--img-background-color);
+    width: 1206px;
+    height: 700px;
+    text-align: center;
+    margin: 40px auto 100px auto;
+}
+.zmee p{
+    font-size: 29px;
+    line-height: 0;
+}   
+.top{
+    font-size: 29px;
+    margin-top: 50px;
+}
+.title{
+    font-size: 29px;
+    padding-top: 45px;
+}
+.zmee a{
+    text-decoration: none;
+    color: black;
+    margin: 45px;
+    
+}
+.zmee img, .MI449 img{
+    margin-top: 80px;
+}
+.zmeeDesc{
+    text-align: left;
+    padding-top: 90px;
+}
+.MI449 a{
+    text-decoration: none;
+    color: black;
+}
+
+.about{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 30px;
+}   
+.about p{
+    margin: 50px 150px 50px auto;
+    text-align: center;
+    font-size: 29px;
+}
+
+.about img{
+    margin-left: 153px;
+}
+.ab{
+    font-weight: bolder;
+}
+
+.note{
+    text-align: center;
+    align-items: center;
+    margin:-90px;
+    margin-bottom: 60px;
+    line-height: 0;
+}
+.prototype {
+    align-items: center;
+    text-align: left;
+    margin: 0 153px 0 153px ;
+    font-size: 20px;
+}
+.spitch{
+    align-items: center;
+    text-align: left;
+    margin: 0 153px 0 153px ;
+    font-size: 25px;
+}
+.lpitch{
+    align-items: center;
+    text-align: left;
+    margin: 0 153px 50px 153px ;
+    font-size: 20px;
+}
+.WIP{
+    margin-left: 153px;
+}
+.shf{
+    margin: 50px 153px 50px 153px ;
+}
+.shf .shfimg{
+    text-align: center;
+    size-adjust: smaller;
+    background-color: var(--img-background-color);
+}
+.shf .shfimg img{
+    margin: 75px 0 75px 0;
+}
+
+.shf p{
+    text-align: left;
+    font-size: 20px;
+}
+
+
+footer{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 100px;
+}
+
