@@ -98,13 +98,17 @@ li a:hover{
     gap: 30px;
 }   
 .about p{
-    margin: 50px 150px 50px auto;
+    margin: 50px 150px 50px 50px;
     text-align: center;
     font-size: 29px;
+    width: 512px;
+    line-height: 1;
 }
 
 .about img{
     margin-left: 153px;
+    margin-top: 50px;
+    width: 512px;
 }
 .ab{
     font-weight: bolder;
