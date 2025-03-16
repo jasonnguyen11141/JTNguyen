@@ -55,6 +55,7 @@ li a:hover{
     font-size: 16px;
     
 }
+
 .zmee, .MI449{
     background: var(--img-background-color);
     width: 1206px;
@@ -64,11 +65,9 @@ li a:hover{
 }
 .zmee p{
     font-size: 29px;
-    line-height: 0;
 }   
 .top{
     font-size: 29px;
-    margin-top: 50px;
 }
 .title{
     font-size: 29px;
@@ -164,5 +163,24 @@ footer{
     text-align: center;
     font-size: 20px;
     margin-top: 100px;
+}
+.planetary img{
+    width: 658px;
+    height: 379px;
+}
+.Assignments{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+    text-decoration: none;
+    margin: 50px 150px 50px 50px;
+}
+.Assignments h2, p{
+    text-align: center;
+    color: black;
+    line-height: 0;
+}
+.Assignments a{
+    text-decoration: none;
 }
 
